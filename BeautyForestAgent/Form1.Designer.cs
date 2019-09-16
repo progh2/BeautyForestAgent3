@@ -50,6 +50,7 @@
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.이프로그램은ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.건의사항ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusMessage = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -143,7 +144,8 @@
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.toolStripStatusLabel1,
+            this.statusMessage});
             this.statusStrip1.Location = new System.Drawing.Point(0, 378);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(848, 26);
@@ -167,7 +169,7 @@
             this.건의사항ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(848, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(848, 30);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -176,7 +178,7 @@
             this.파일ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.끝내기ToolStripMenuItem1});
             this.파일ToolStripMenuItem.Name = "파일ToolStripMenuItem";
-            this.파일ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.파일ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.파일ToolStripMenuItem.Text = "파일";
             // 
             // 끝내기ToolStripMenuItem1
@@ -192,7 +194,7 @@
             this.수정ToolStripMenuItem,
             this.추가ToolStripMenuItem});
             this.프로필ToolStripMenuItem.Name = "프로필ToolStripMenuItem";
-            this.프로필ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.프로필ToolStripMenuItem.Size = new System.Drawing.Size(68, 26);
             this.프로필ToolStripMenuItem.Text = "프로필";
             // 
             // 수정ToolStripMenuItem
@@ -212,7 +214,7 @@
             this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.이프로그램은ToolStripMenuItem});
             this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
-            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(68, 26);
             this.도움말ToolStripMenuItem.Text = "도움말";
             // 
             // 이프로그램은ToolStripMenuItem
@@ -226,8 +228,15 @@
             this.건의사항ToolStripMenuItem.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold);
             this.건의사항ToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.건의사항ToolStripMenuItem.Name = "건의사항ToolStripMenuItem";
-            this.건의사항ToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
+            this.건의사항ToolStripMenuItem.Size = new System.Drawing.Size(83, 26);
             this.건의사항ToolStripMenuItem.Text = "건의사항";
+            this.건의사항ToolStripMenuItem.Click += new System.EventHandler(this.건의사항ToolStripMenuItem_Click);
+            // 
+            // statusMessage
+            // 
+            this.statusMessage.Name = "statusMessage";
+            this.statusMessage.Size = new System.Drawing.Size(59, 20);
+            this.statusMessage.Text = "대기 중";
             // 
             // Form1
             // 
@@ -283,6 +292,7 @@
         private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 이프로그램은ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 건의사항ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripStatusLabel statusMessage;
     }
 }
 

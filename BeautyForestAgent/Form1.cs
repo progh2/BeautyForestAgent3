@@ -53,6 +53,14 @@ namespace BeautyForestAgent
             this.ntiTray.Visible = false;
             Application.ExitThread();
         }
+
+        private void 건의사항ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.statusMessage.Text = "무료로 건의사항을 보낼 수 있습니다!";
+            FormOpinion m = new FormOpinion();
+            m.ShowDialog();
+
+        }
     }
 
 }
