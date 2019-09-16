@@ -43,13 +43,13 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.파일ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.프로필ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.건의사항ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.끝내기ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.프로필ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.수정ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.추가ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.이프로그램은ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.건의사항ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -62,7 +62,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(533, 18);
             this.label1.TabIndex = 1;
-            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.2 by [학번] [이름]";
+            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.3 by [학번] [이름]";
             // 
             // btnTray
             // 
@@ -179,6 +179,13 @@
             this.파일ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.파일ToolStripMenuItem.Text = "파일";
             // 
+            // 끝내기ToolStripMenuItem1
+            // 
+            this.끝내기ToolStripMenuItem1.Name = "끝내기ToolStripMenuItem1";
+            this.끝내기ToolStripMenuItem1.Size = new System.Drawing.Size(137, 26);
+            this.끝내기ToolStripMenuItem1.Text = "끝내기";
+            this.끝내기ToolStripMenuItem1.Click += new System.EventHandler(this.끝내기ToolStripMenuItem1_Click);
+            // 
             // 프로필ToolStripMenuItem
             // 
             this.프로필ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -188,6 +195,18 @@
             this.프로필ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.프로필ToolStripMenuItem.Text = "프로필";
             // 
+            // 수정ToolStripMenuItem
+            // 
+            this.수정ToolStripMenuItem.Name = "수정ToolStripMenuItem";
+            this.수정ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.수정ToolStripMenuItem.Text = "수정";
+            // 
+            // 추가ToolStripMenuItem
+            // 
+            this.추가ToolStripMenuItem.Name = "추가ToolStripMenuItem";
+            this.추가ToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.추가ToolStripMenuItem.Text = "추가";
+            // 
             // 도움말ToolStripMenuItem
             // 
             this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -196,38 +215,19 @@
             this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.도움말ToolStripMenuItem.Text = "도움말";
             // 
+            // 이프로그램은ToolStripMenuItem
+            // 
+            this.이프로그램은ToolStripMenuItem.Name = "이프로그램은ToolStripMenuItem";
+            this.이프로그램은ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.이프로그램은ToolStripMenuItem.Text = "이 프로그램은";
+            // 
             // 건의사항ToolStripMenuItem
             // 
             this.건의사항ToolStripMenuItem.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold);
             this.건의사항ToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.건의사항ToolStripMenuItem.Name = "건의사항ToolStripMenuItem";
-            this.건의사항ToolStripMenuItem.Size = new System.Drawing.Size(83, 26);
+            this.건의사항ToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.건의사항ToolStripMenuItem.Text = "건의사항";
-            // 
-            // 끝내기ToolStripMenuItem1
-            // 
-            this.끝내기ToolStripMenuItem1.Name = "끝내기ToolStripMenuItem1";
-            this.끝내기ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.끝내기ToolStripMenuItem1.Text = "끝내기";
-            this.끝내기ToolStripMenuItem1.Click += new System.EventHandler(this.끝내기ToolStripMenuItem1_Click);
-            // 
-            // 수정ToolStripMenuItem
-            // 
-            this.수정ToolStripMenuItem.Name = "수정ToolStripMenuItem";
-            this.수정ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.수정ToolStripMenuItem.Text = "수정";
-            // 
-            // 추가ToolStripMenuItem
-            // 
-            this.추가ToolStripMenuItem.Name = "추가ToolStripMenuItem";
-            this.추가ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.추가ToolStripMenuItem.Text = "추가";
-            // 
-            // 이프로그램은ToolStripMenuItem
-            // 
-            this.이프로그램은ToolStripMenuItem.Name = "이프로그램은ToolStripMenuItem";
-            this.이프로그램은ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.이프로그램은ToolStripMenuItem.Text = "이 프로그램은";
             // 
             // Form1
             // 
