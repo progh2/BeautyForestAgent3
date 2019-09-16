@@ -104,6 +104,8 @@
     <Content Include="img\add.PNG" />
     <Content Include="img\demo.PNG" />
     <Content Include="img\modify.PNG" />
+    <Content Include="img\tsbtnColor.png" />
+    <Content Include="img\tsbtnFont.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
